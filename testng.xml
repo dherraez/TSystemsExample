@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite REST API">
+	<listeners>
+		<listener class-name="resources.ExtentReporterNG" />
+	</listeners>
+
+	<test thread-count="5" name="REST API">
+		<classes>
+			<class name="TestFramework.F_Jira_1_Add_Issue" />
+			<class name="TestFramework.H_Jira_3_Update_Comment" />
+			<class name="TestFramework.G_Jira_2_Add_Comment" />
+		</classes>
+	</test> <!-- REST API -->
+</suite> <!-- Suite REST API -->

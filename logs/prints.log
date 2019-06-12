@@ -1,0 +1,247 @@
+2019-06-07 13:14:48.096 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@5a101b1c
+2019-06-07 13:16:17.595 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@2160e52a
+2019-06-07 13:16:17.616 [main] DEBUG TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@3eb631b8
+2019-06-07 13:17:49.375 [main] INFO  TestFramework.F_Jira_1_Add_Issue - {
+    "fields": {
+       "project":
+       {
+          "key": "PROJ"
+       },
+       "summary": "Credit Card Defect 2 via API",
+       "description": "Creating of an issue using project keys and issue type names using the REST API",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
+2019-06-07 13:17:49.399 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@3eb631b8
+2019-06-07 13:17:49.402 [main] DEBUG TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@796d3c9f
+2019-06-07 15:46:56.610 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateIssue Request Test
+2019-06-07 15:46:57.092 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 15:46:59.811 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Body sent on the POST request:
+2019-06-07 15:46:59.816 [main] INFO  TestFramework.F_Jira_1_Add_Issue - {
+    "fields": {
+       "project":
+       {
+          "key": "PROJ"
+       },
+       "summary": "Issue created via RestAssured",
+       "description": "Creating of an issue using project keys and issue type names using the REST API",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
+2019-06-07 15:46:59.819 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@779de014
+2019-06-07 15:46:59.822 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@5c41d037
+2019-06-07 15:46:59.838 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Issue ID is: 10210
+2019-06-07 15:46:59.841 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here ends the CreateIssue Request Test
+2019-06-07 16:15:04.539 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateIssue Request Test
+2019-06-07 16:15:05.025 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:15:07.694 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Body sent on the POST request:
+2019-06-07 16:15:07.697 [main] INFO  TestFramework.F_Jira_1_Add_Issue - {
+    "fields": {
+       "project":
+       {
+          "key": "PROJ"
+       },
+       "summary": "Issue created via RestAssured",
+       "description": "Creating of an issue using project keys and issue type names using the REST API",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
+2019-06-07 16:15:07.700 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@779de014
+2019-06-07 16:15:07.702 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@5c41d037
+2019-06-07 16:15:07.718 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Issue ID is: 10211
+2019-06-07 16:15:07.720 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here ends the CreateIssue Request Test
+2019-06-07 16:17:28.541 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateComment Request Test
+2019-06-07 16:17:28.581 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:17:28.772 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Comment ID is: 10220
+2019-06-07 16:21:55.476 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateComment Request Test
+2019-06-07 16:21:55.490 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:21:55.643 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Comment ID is: 10221
+2019-06-07 16:33:57.801 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateIssue Request Test
+2019-06-07 16:33:58.284 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:34:01.278 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Body sent on the POST request:
+2019-06-07 16:34:01.281 [main] INFO  TestFramework.F_Jira_1_Add_Issue - {
+    "fields": {
+       "project":
+       {
+          "key": "PROJ"
+       },
+       "summary": "Issue created via RestAssured",
+       "description": "Creating of an issue using project keys and issue type names using the REST API",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
+2019-06-07 16:34:01.284 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@779de014
+2019-06-07 16:34:01.287 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@5c41d037
+2019-06-07 16:34:01.302 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Issue ID is: 10216
+2019-06-07 16:34:01.305 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here ends the CreateIssue Request Test
+2019-06-07 16:34:01.307 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateComment Request Test
+2019-06-07 16:34:01.310 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:34:01.537 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Comment ID is: 10223
+2019-06-07 16:37:36.343 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateIssue Request Test
+2019-06-07 16:37:36.862 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:37:39.396 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Body sent on the POST request:
+2019-06-07 16:37:39.399 [main] INFO  TestFramework.F_Jira_1_Add_Issue - {
+    "fields": {
+       "project":
+       {
+          "key": "PROJ"
+       },
+       "summary": "Issue created via RestAssured",
+       "description": "Creating of an issue using project keys and issue type names using the REST API",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
+2019-06-07 16:37:39.402 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@779de014
+2019-06-07 16:37:39.405 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@5c41d037
+2019-06-07 16:37:39.434 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Issue ID is: 10217
+2019-06-07 16:37:39.462 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here ends the CreateIssue Request Test
+2019-06-07 16:37:39.466 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateComment Request Test
+2019-06-07 16:37:39.469 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:37:39.701 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Comment ID is: 10224
+2019-06-07 16:38:59.398 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateIssue Request Test
+2019-06-07 16:39:00.064 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:39:04.897 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Body sent on the POST request:
+2019-06-07 16:39:04.900 [main] INFO  TestFramework.F_Jira_1_Add_Issue - {
+    "fields": {
+       "project":
+       {
+          "key": "PROJ"
+       },
+       "summary": "Issue created via RestAssured",
+       "description": "Creating of an issue using project keys and issue type names using the REST API",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
+2019-06-07 16:39:04.906 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@5c41d037
+2019-06-07 16:39:04.909 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@2234078
+2019-06-07 16:39:04.929 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Issue ID is: 10218
+2019-06-07 16:39:04.937 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here ends the CreateIssue Request Test
+2019-06-07 16:39:04.940 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateComment Request Test
+2019-06-07 16:39:04.943 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:39:05.185 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Comment ID is: 10225
+2019-06-07 16:39:42.198 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateIssue Request Test
+2019-06-07 16:39:42.805 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:39:45.314 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Body sent on the POST request:
+2019-06-07 16:39:45.318 [main] INFO  TestFramework.F_Jira_1_Add_Issue - {
+    "fields": {
+       "project":
+       {
+          "key": "PROJ"
+       },
+       "summary": "Issue created via RestAssured",
+       "description": "Creating of an issue using project keys and issue type names using the REST API",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
+2019-06-07 16:39:45.323 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@779de014
+2019-06-07 16:39:45.328 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@5c41d037
+2019-06-07 16:39:45.346 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Issue ID is: 10219
+2019-06-07 16:39:45.349 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here ends the CreateIssue Request Test
+2019-06-07 16:39:45.351 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateComment Request Test
+2019-06-07 16:39:45.354 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:39:45.562 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Comment ID is: 10226
+2019-06-07 16:42:03.138 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateIssue Request Test
+2019-06-07 16:42:03.626 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:42:06.086 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Body sent on the POST request:
+2019-06-07 16:42:06.090 [main] INFO  TestFramework.F_Jira_1_Add_Issue - {
+    "fields": {
+       "project":
+       {
+          "key": "PROJ"
+       },
+       "summary": "Issue created via RestAssured",
+       "description": "Creating of an issue using project keys and issue type names using the REST API",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
+2019-06-07 16:42:06.093 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@779de014
+2019-06-07 16:42:06.099 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@5c41d037
+2019-06-07 16:42:06.118 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Issue ID is: 10220
+2019-06-07 16:42:06.123 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here ends the CreateIssue Request Test
+2019-06-07 16:42:06.126 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateComment Request Test
+2019-06-07 16:42:06.129 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:42:06.331 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Comment ID is: 10227
+2019-06-07 16:44:04.707 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateIssue Request Test
+2019-06-07 16:44:05.194 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:44:07.626 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Body sent on the POST request:
+2019-06-07 16:44:07.629 [main] INFO  TestFramework.F_Jira_1_Add_Issue - {
+    "fields": {
+       "project":
+       {
+          "key": "PROJ"
+       },
+       "summary": "Issue created via RestAssured",
+       "description": "Creating of an issue using project keys and issue type names using the REST API",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
+2019-06-07 16:44:07.632 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@796d3c9f
+2019-06-07 16:44:07.636 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@6bff19ff
+2019-06-07 16:44:07.651 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Issue ID is: 10221
+2019-06-07 16:44:07.660 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here ends the CreateIssue Request Test
+2019-06-07 16:44:07.679 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateIssue Request Test
+2019-06-07 16:44:07.682 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:44:07.915 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Body sent on the POST request:
+2019-06-07 16:44:07.917 [main] INFO  TestFramework.F_Jira_1_Add_Issue - {
+    "fields": {
+       "project":
+       {
+          "key": "PROJ"
+       },
+       "summary": "Issue created via RestAssured",
+       "description": "Creating of an issue using project keys and issue type names using the REST API",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
+2019-06-07 16:44:07.920 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@1a411233
+2019-06-07 16:44:07.923 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@70325d20
+2019-06-07 16:44:07.940 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Issue ID is: 10222
+2019-06-07 16:44:07.943 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here ends the CreateIssue Request Test
+2019-06-07 16:44:07.959 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateComment Request Test
+2019-06-07 16:44:07.965 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:44:08.177 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Comment ID is: 10228
+2019-06-07 16:44:08.624 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateComment Request Test
+2019-06-07 16:44:08.626 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-07 16:44:08.752 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Comment ID is: 10229
+2019-06-12 17:49:01.959 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateIssue Request Test
+2019-06-12 17:49:02.423 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
+2019-06-12 17:49:06.894 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Body sent on the POST request:
+2019-06-12 17:49:06.897 [main] INFO  TestFramework.F_Jira_1_Add_Issue - {
+    "fields": {
+       "project":
+       {
+          "key": "PROJ"
+       },
+       "summary": "Issue created via RestAssured",
+       "description": "Creating of an issue using project keys and issue type names using the REST API",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
+2019-06-12 17:49:06.900 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.internal.RestAssuredResponseImpl@4303b7f0
+2019-06-12 17:49:06.903 [main] INFO  TestFramework.F_Jira_1_Add_Issue - io.restassured.path.json.JsonPath@757529a4
+2019-06-12 17:49:06.918 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Issue ID is: 10230
+2019-06-12 17:49:06.921 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here ends the CreateIssue Request Test
+2019-06-12 17:55:44.938 [main] INFO  TestFramework.F_Jira_1_Add_Issue - Here starts the CreateIssue Request Test
+2019-06-12 17:55:45.540 [main] INFO  TestFramework.F_Jira_1_Add_Issue - The host is: http://localhost:8080
