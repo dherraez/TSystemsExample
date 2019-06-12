@@ -39,7 +39,7 @@ public class F_Jira_1_Add_Issue {
 		RestAssured.baseURI = prop.getProperty("HOSTJIRA");
 		log.info("The host is: " + prop.getProperty("HOSTJIRA"));
 		Response res = given().header("Content-Type", "application/json")
-				.header("cookie", "JSESSION=" + reusableMethods.getSessionID()).body(payloads.bodyCreateIssue()).log()
+				.header("cookie", "JSESSIONID=" + reusableMethods.getSessionID()).body(payloads.bodyCreateIssue()).log()
 				.body().when().post(resources.resCreateIssue()).then().log().body().assertThat().statusCode(201)
 				.extract().response();
 		
